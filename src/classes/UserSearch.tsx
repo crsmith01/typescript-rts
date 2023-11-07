@@ -1,4 +1,4 @@
-import { Component, ReactNode } from 'react'
+import { Component } from 'react'
 
 interface User {
     name: string
@@ -40,8 +40,8 @@ class UserSearch extends Component<UserSearchProps> {
             <button onClick={this.onClick}>Find User</button>
             <div>
                 {/* only try to access name property of user if user is defined */}
-                {user && user.name}
-                {user && user.age}
+                Name: {user && user.name}.
+                Age: {user && user.age}.
             </div>
         </>
     )

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import GuestList from './state/GuestList';
-import UserSearch from './state/UserSearch';
+import UserSearch from './refs/UserSearch'
 import EventComponent from './events/EventComponent';
 
 function App() {
